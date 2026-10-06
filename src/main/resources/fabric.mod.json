@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "zyrex_cpvp_optimiser",
+  "version": "${version}",
+  "name": "Zyrex_x Cpvp Optimiser",
+  "description": "HUD and utility mod for Crystal PvP testing. Provides crystal and anchor speed configuration, status monitors and visual overlays.",
+  "authors": [
+    "Zyrex_x"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Oriozin/Zyrex_x-Cpvp-Optimiser",
+    "sources": "https://github.com/Oriozin/Zyrex_x-Cpvp-Optimiser"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.zyrex.cpvpoptimiser.ZyrexCpvpOptimiserClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
